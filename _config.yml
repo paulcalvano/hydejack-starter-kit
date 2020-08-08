@@ -320,7 +320,7 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
- - jekyll-paginate
+  - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links
@@ -377,12 +377,12 @@ titles_from_headings:
   strip_title:         true
   collections:         true
 
-#compress_html:
+compress_html:
 #  comments:            ["<!-- ", " -->"]
-#  clippings:           all
-#  endings:             all
-#  ignore:
-#    envs:              [development]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
 
 sass:
   style:               compressed
