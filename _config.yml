@@ -378,14 +378,14 @@ titles_from_headings:
   collections:         true
 
 compress_html:
-#  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
+  comments:            ["<!-- ", " -->"]
+#  clippings:           all
+#  endings:             all
+#  ignore:
+#    envs:              [development]
 
-sass:
-  style:               compressed
+#sass:
+#  style:               compressed
 
   
 # Jekyll Compose Defaults
